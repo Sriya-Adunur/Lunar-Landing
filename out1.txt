@@ -1,0 +1,27 @@
+What is your lunar module's name? 
+"'Eagle', Houston. You're GO for powered descent."
+
+     Time     |   Altitude   |   Velocity   |     Fuel     |   Throttle   
+--------------+--------------+--------------+--------------+--------------
+          0 s |     200.00 m |   -15.00 m/s |   1200.00 kg | ? 10
+          1 s |     183.90 m |   -16.10 m/s |   1198.45 kg | ? 10
+          2 s |     166.70 m |   -17.20 m/s |   1196.89 kg | ? 10
+          3 s |     148.40 m |   -18.30 m/s |   1195.34 kg | ? 10
+          4 s |     129.01 m |   -19.40 m/s |   1193.78 kg | ? 31
+          5 s |     109.63 m |   -19.38 m/s |   1188.97 kg | ? 60
+          6 s |      91.80 m |   -17.82 m/s |   1179.64 kg | ? 60
+          7 s |      75.55 m |   -16.26 m/s |   1170.32 kg | ? 60
+          8 s |      60.86 m |   -14.69 m/s |   1160.99 kg | ? 60
+          9 s |      47.74 m |   -13.12 m/s |   1151.67 kg | ? 60
+         10 s |      36.19 m |   -11.55 m/s |   1142.35 kg | ? 60
+         11 s |      26.22 m |    -9.97 m/s |   1133.02 kg | ? 60
+         12 s |      17.83 m |    -8.39 m/s |   1123.70 kg | ? 60
+         13 s |      11.02 m |    -6.81 m/s |   1114.37 kg | ? 60
+         14 s |       5.80 m |    -5.22 m/s |   1105.05 kg | ? 60
+         15 s |       2.18 m |    -3.63 m/s |   1095.73 kg | ? 60
+         16 s |       0.14 m |    -2.03 m/s |   1086.40 kg | ? 60
+              |              CONTACT DETECTED              |              
+         17 s |       0.00 m |    -0.44 m/s |   1077.08 kg | SHUTDOWN
+
+"Houston, Tranquility Base here: the 'Eagle' has landed."
+"Roger, Tranqulity. We copy you on the ground."
