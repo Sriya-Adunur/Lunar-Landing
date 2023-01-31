@@ -12,8 +12,12 @@ def update_fuel(fuel, throttle):
     :param throttle: A throttle fraction at time t
     :return: The amount of fuel at time t
     """
-    return 0
-
+    
+    fuel =  fuel - (15.54 * throttle)
+    if fuel < 0:
+       return 0
+    else:
+       return fuel
 
 def update_acceleration(fuel, throttle):
     """
@@ -24,8 +28,9 @@ def update_acceleration(fuel, throttle):
     :param throttle: A throttle fraction at time t
     :return: The acceleration at time t
     """
-    return 0
 
+    return ((46710 * throttle)/(7606 + fuel)) - 1.63  
+  
 
 def update_velocity(velocity, acceleration):
     """
@@ -36,7 +41,8 @@ def update_velocity(velocity, acceleration):
     :param acceleration: An acceleration at time t
     :return: The velocity at time t
     """
-    return 0
+    
+    return velocity + acceleration    
 
 
 def update_altitude(altitude, velocity):
@@ -48,4 +54,9 @@ def update_altitude(altitude, velocity):
     :param velocity: A velocity at time t
     :return: The altitude at time t
     """
-    return 0
+    altitude = altitude + velocity
+    if altitude <= 0:
+        return 0
+    else: 
+        return altitude
+
